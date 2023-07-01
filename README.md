@@ -1,3 +1,3 @@
 # LeetCode Solutions
 
-- [longest-palindromic-substring](longest-palindromic-substring/main.cpp)
+- [longest-palindromic-substring](longest-palindromic-substring/)
