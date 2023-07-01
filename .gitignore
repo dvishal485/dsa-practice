@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Extra root files
+fc.cpp
+daily_challenge.html
+testcase.txt
