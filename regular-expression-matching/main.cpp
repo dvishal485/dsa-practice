@@ -58,6 +58,3 @@ class Solution {
             isMatch(s, p, s_idx + 1, p_idx + 1, dp);
     }
 };
-
-// #LCEND https://leetcode.com/problems/regular-expression-matching/
-main_start { fast; }
