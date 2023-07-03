@@ -57,7 +57,3 @@ class Solution {
         return l;
     }
 };
-
-// #LCEND
-// https://leetcode.com/problems/split-array-largest-sum/?envType=list&envId=eh7ydrxh
-main_start { fast; }

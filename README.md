@@ -18,3 +18,4 @@ I just do `leetcode-runner-cli -p` to save my solutions along with the question 
 - [regular-expression-matching](regular-expression-matching/)
 - [design-linked-list](design-linked-list/)
 - [continuous-subarray-sum](continuous-subarray-sum/)
+- [split-array-largest-sum](split-array-largest-sum/)
