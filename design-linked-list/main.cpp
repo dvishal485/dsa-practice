@@ -117,18 +117,3 @@ class MyLinkedList {
  * obj->addAtIndex(index,val);
  * obj->deleteAtIndex(index);
  */
-
-// #LCEND https://leetcode.com/problems/design-linked-list/
-main_start {
-    fast;
-    MyLinkedList(ll);
-    ll.addAtHead(1);
-    ll.addAtTail(3);
-    ll.addAtIndex(1, 2);
-    auto res = ll.get(1);
-    cout << "expected = 1 , output = " << res << endl;
-    auto res2 = ll.get(2);
-    cout << "expected = 2 , output = " << res2 << endl;
-    ll.deleteAtIndex(1);
-    auto res3 = ll.get(1);
-}
