@@ -42,7 +42,3 @@ class Solution {
         return false;
     }
 };
-
-// #LCEND
-// https://leetcode.com/problems/continuous-subarray-sum/?envType=list&envId=eh7ydrxh
-main_start { fast; }
