@@ -40,7 +40,3 @@ class Solution {
         return once;
     }
 };
-
-// #LCEND https://leetcode.com/problems/single-number-ii/
-
-main_start { fast; }

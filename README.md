@@ -19,3 +19,4 @@ I just do `leetcode-runner-cli -p` to save my solutions along with the question 
 - [design-linked-list](design-linked-list/)
 - [continuous-subarray-sum](continuous-subarray-sum/)
 - [split-array-largest-sum](split-array-largest-sum/)
+- [single-number-ii](single-number-ii/) : nice bit manipulation
