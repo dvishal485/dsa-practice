@@ -4,14 +4,16 @@
 using namespace std;
 
 int main() {
+    stringstream ss;
+    ss << cin.rdbuf();
     size_t n;
-    cin >> n;
+    ss >> n;
     int64_t lower_limit;
-    cin >> lower_limit;
+    ss >> lower_limit;
     int64_t moves = 0;
     for (size_t i = 1; i < n; i++) {
         int64_t num;
-        cin >> num;
+        ss >> num;
         int64_t difference = lower_limit - num;
         if (lower_limit > num) {
             moves += difference;
