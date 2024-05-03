@@ -10,8 +10,8 @@ int main() {
     int n, m, k;
     ss >> n >> m >> k;
     vector<int> needs, rooms;
-    needs.reserve(m);
-    rooms.reserve(n);
+    needs.reserve(n);
+    rooms.reserve(m);
 
     for (int i = 0; i < n; i++) {
         int need;
