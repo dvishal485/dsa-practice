@@ -34,7 +34,7 @@ int main() {
     for (auto const need : needs) {
         while (curr_room < need - k) {
             room_ptr += 1;
-            if (room_ptr >= needs.size()) {
+            if (room_ptr >= rooms.size()) {
                 goto finish;
             }
             curr_room = rooms[room_ptr];
@@ -45,7 +45,7 @@ int main() {
 
         served += 1;
         room_ptr += 1;
-        if (room_ptr >= needs.size()) {
+        if (room_ptr >= rooms.size()) {
             goto finish;
         }
         curr_room = rooms[room_ptr];
